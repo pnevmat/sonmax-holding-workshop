@@ -1,0 +1,303 @@
+.speakerContaner {
+  width: 100%;
+  background-color: #010101;
+}
+
+.speakerWrapper {
+  padding-top: 89px;
+  padding-left: 358px;
+  padding-bottom: 140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.speakerCardContainer {
+  display: flex;
+  width: 100%;
+  text-align: left;
+}
+
+.speakerTextContainer {
+  width: 50%;
+  padding: 30px;
+  border: 1px solid #515151;
+  border-radius: 20px;
+}
+
+.speakerAchivementsWrapper {
+  margin-bottom: 40px;
+}
+
+.speakerSubtitle {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.speakerTitle {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff401;
+}
+
+.speakerAchivementsList {
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.speakerTextWrapper {
+  display: flex;
+}
+
+.speakerIconContainer {
+  height: 100%;
+  margin-right: 10px;
+}
+
+.speakerIconContainer > img {
+  position: relative;
+  top: 0;
+  left: -40%;
+  width: 27px;
+  height: 22px;
+}
+
+.speakerDetailsContainer {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff401;
+}
+
+.speakerDetailsContainer > span {
+  display: block;
+}
+
+.speakerDetailsText {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+
+.speakerPhotoContainer {
+  width: 50%;
+  padding: 30px;
+  border: 1px solid #515151;
+  border-radius: 20px;
+}
+
+.speakerPhotoContainer > img {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .speakerWrapper {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+  }
+
+  .speakerCardContainer {
+    flex-direction: column;
+  }
+
+  .speakerTextContainer {
+    width: 100%;
+  }
+
+  .speakerIconContainer > img {
+    width: 13px;
+    height: 10px;
+  }
+
+  .speakerSubtitle {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+
+  .speakerTitle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+  }
+
+  .speakerAchivementsList {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+
+  .speakerDetailsContainer {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+  }
+
+  .speakerDetailsText {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+
+  .speakerPhotoContainer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 339px) {
+  .speakerWrapper {
+    max-width: 260px;
+  }
+
+  .speakerTextContainer {
+    max-width: 200px;
+  }
+
+  .speakerPhotoContainer {
+    max-width: 200px;
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 359px) {
+  .speakerWrapper {
+    max-width: 280px;
+  }
+
+  .speakerTextContainer {
+    max-width: 220px;
+  }
+
+  .speakerPhotoContainer {
+    max-width: 220px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 379px) {
+  .speakerWrapper {
+    max-width: 300px;
+  }
+
+  .speakerTextContainer {
+    max-width: 240px;
+  }
+
+  .speakerPhotoContainer {
+    max-width: 240px;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 419px) {
+  .speakerWrapper {
+    max-width: 320px;
+  }
+
+  .speakerTextContainer {
+    max-width: 260px;
+  }
+
+  .speakerPhotoContainer {
+    max-width: 260px;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 767px) {
+  .speakerWrapper {
+    max-width: 360px;
+  }
+
+  .speakerTextContainer {
+    max-width: 300px;
+  }
+
+  .speakerPhotoContainer {
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .speakerWrapper {
+    max-width: 743px;
+    padding-left: 25px;
+  }
+
+  .speakerCardContainer {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .speakerPhotoContainer {
+    width: 100%;
+    max-width: 683px;
+  }
+
+  .speakerTextContainer {
+    width: 100%;
+    max-width: 683px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .speakerWrapper {
+    max-width: 974px;
+    padding-left: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .speakerCardContainer {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1359px) {
+  .speakerWrapper {
+    max-width: 1230px;
+    padding-left: 50px;
+  }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1699px) {
+  .speakerWrapper {
+    max-width: 1260px;
+    padding-left: 100px;
+  }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1919px) {
+  .speakerWrapper {
+    max-width: 1342px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .speakerWrapper {
+    max-width: 1562px;
+  }
+
+  .speakerCardContainer {
+    max-width: 1212px;
+  }
+}

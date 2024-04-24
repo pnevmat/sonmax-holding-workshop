@@ -1,0 +1,426 @@
+.masterclassProgramContainer {
+  width: 100%;
+  background-color: #010101;
+}
+
+.masterclassProgramWrapper {
+  position: relative;
+  padding-top: 89px;
+  padding-left: 358px;
+  padding-bottom: 140px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+.masterclassProgramTitle {
+  display: inline-block;
+  margin-bottom: 40px;
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff401;
+}
+
+.masterclassProgramListContainer {
+  display: inline-block;
+  width: 72.5%;
+  padding: 40px;
+  border-radius: 40px;
+  background-color: #ffffff;
+}
+
+.masterclassProgramDate,
+.masterclassProgramLength {
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.masterclassProgramDate {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.masterclassProgramLength {
+  background-color: #fff401;
+}
+
+.masterclassProgramListWrapper {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.masterclassProgramListCard {
+  display: flex;
+  width: 92%;
+  padding: 20px;
+  border: 1px solid #515151;
+}
+
+.masterclassProgramListImgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.masterclassProgramListImgContainer > img {
+  position: relative;
+  top: -40%;
+  left: 0;
+  width: 18px;
+  height: 18px;
+}
+
+.biggerTop > img {
+  top: -43%;
+}
+
+.masterclassProgramListText {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.offerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #515151;
+  border-radius: 10px;
+  background-color: #101010;
+}
+
+.offerTextContainer {
+  width: 48%;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.yellow {
+  color: #fff401;
+}
+
+.buttonContainer {
+  width: 48%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #515151;
+}
+
+.offerButton {
+  width: 100%;
+  height: 88px;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(0deg, #fff401, #fff401);
+  box-shadow: 0px 4px 34px 0px #fff40199;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+}
+
+.offerButton > a {
+  color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+  .masterclassProgramWrapper {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 0;
+  }
+
+  .masterclassProgramTitle {
+    padding-left: 30px;
+  }
+
+  .masterclassProgramListContainer {
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+  }
+
+  .masterclassProgramDate,
+  .masterclassProgramLength {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .masterclassProgramDate {
+    margin-bottom: 6px;
+  }
+
+  .masterclassProgramLength {
+    margin-bottom: 20px;
+  }
+
+  .masterclassProgramListWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .masterclassProgramListCard {
+    width: 100%;
+  }
+
+  .masterclassProgramListText {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .offerContainer {
+    flex-direction: column;
+  }
+
+  .offerTextContainer {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+
+  .buttonContainer {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .offerButton {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 339px) {
+  .masterclassProgramWrapper {
+    max-width: 320px;
+  }
+
+  .masterclassProgramListContainer {
+    max-width: 260px;
+  }
+
+  .masterclassProgramListCard {
+    max-width: 220px;
+  }
+
+  .buttonContainer {
+    max-width: 208px;
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 359px) {
+  .masterclassProgramWrapper {
+    max-width: 340px;
+  }
+
+  .masterclassProgramListContainer {
+    max-width: 280px;
+  }
+
+  .masterclassProgramListCard {
+    max-width: 240px;
+  }
+
+  .buttonContainer {
+    max-width: 228px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 379px) {
+  .masterclassProgramWrapper {
+    max-width: 360px;
+  }
+
+  .masterclassProgramListContainer {
+    max-width: 300px;
+  }
+
+  .masterclassProgramListCard {
+    max-width: 260px;
+  }
+
+  .buttonContainer {
+    max-width: 248px;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 419px) {
+  .masterclassProgramWrapper {
+    max-width: 380px;
+  }
+
+  .masterclassProgramListContainer {
+    max-width: 320px;
+  }
+
+  .masterclassProgramListCard {
+    max-width: 280px;
+  }
+
+  .buttonContainer {
+    max-width: 268px;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 767px) {
+  .masterclassProgramWrapper {
+    max-width: 420px;
+  }
+
+  .masterclassProgramListContainer {
+    display: block;
+    max-width: 360px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .masterclassProgramListCard {
+    max-width: 320px;
+  }
+
+  .buttonContainer {
+    max-width: 308px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .masterclassProgramWrapper {
+    max-width: 743px;
+    padding-left: 25px;
+  }
+
+  .masterclassProgramListContainer {
+    width: 100%;
+    max-width: 663px;
+  }
+
+  .masterclassProgramListCard {
+    width: 87%;
+  }
+
+  .offerContainer {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .masterclassProgramWrapper {
+    max-width: 974px;
+    padding-left: 50px;
+  }
+
+  .masterclassProgramListContainer {
+    width: 100%;
+    max-width: 894px;
+  }
+
+  .masterclassProgramListCard {
+    width: 90%;
+  }
+
+  .offerContainer {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1359px) {
+  .masterclassProgramWrapper {
+    max-width: 1230px;
+    padding-left: 50px;
+  }
+
+  .masterclassProgramListContainer {
+    width: 100%;
+    max-width: 1120px;
+  }
+
+  .masterclassProgramListCard {
+    width: 91%;
+  }
+
+  .offerContainer {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1699px) {
+  .masterclassProgramWrapper {
+    max-width: 1260px;
+    padding-left: 100px;
+  }
+
+  .masterclassProgramListContainer {
+    width: 100%;
+    max-width: 1120px;
+  }
+
+  .masterclassProgramListCard {
+    width: 92%;
+  }
+
+  .offerContainer {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1919px) {
+  .masterclassProgramWrapper {
+    max-width: 1342px;
+  }
+
+  .masterclassProgramListContainer {
+    width: 100%;
+    max-width: 1120px;
+  }
+
+  .masterclassProgramListWrapper {
+    grid-template-columns: 49.5% 49.5%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .masterclassProgramWrapper {
+    max-width: 1562px;
+  }
+
+  .masterclassProgramListWrapper {
+    grid-template-columns: 49.5% 49.5%;
+  }
+}

@@ -1,0 +1,352 @@
+.invintationContainer {
+  width: 100%;
+  background-color: #010101;
+}
+
+.invintationWrapper {
+  padding-top: 89px;
+  padding-bottom: 140px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+.invintationTitle {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 40px;
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff401;
+}
+
+.invitationListContainer {
+  display: inline-block;
+  width: 100%;
+  padding: 40px;
+  border-radius: 40px;
+  background-color: #121212;
+}
+
+.invitationListWrapper {
+  display: grid;
+  grid-template-columns: 49.4% 49.4%;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.invitationListCard {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+  padding-left: 10px;
+  border: 1px solid #303030;
+}
+
+.invintationImageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.invintationImageContainer > img {
+  position: relative;
+  top: -40%;
+  left: 0;
+  width: 18px;
+  height: 18px;
+}
+
+.invintationListText {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.invintationQuestionContainer {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  padding-left: 10px;
+  background-color: #ff9242;
+}
+
+.invintationQuestionImgContainer {
+  position: relative;
+  width: 18px;
+  height: 42px;
+  margin-right: 10px;
+}
+
+.invintationQuestionImgContainer > img {
+  position: absolute;
+  top: -4.5%;
+  left: 0;
+  width: 18px;
+  height: 18px;
+}
+
+.invintationQuestionText {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+  .invintationWrapper {
+    padding: 30px;
+  }
+
+  .invintationTitle {
+    max-width: 260px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .invitationListContainer {
+    padding: 0;
+  }
+
+  .invitationListWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .invitationListCard {
+    padding-left: 20px;
+  }
+
+  .invintationListText {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .invintationQuestionText {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .invintationQuestionContainer {
+    padding-left: 20px;
+  }
+
+  .invintationQuestionImgContainer {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 339px) {
+  .invintationWrapper {
+    max-width: 260px;
+  }
+
+  .invintationTitle {
+    max-width: 260px;
+  }
+
+  .invitationListContainer {
+    max-width: 260px;
+  }
+
+  .invitationListCard {
+    max-width: 220px;
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 359px) {
+  .invintationWrapper {
+    max-width: 280px;
+  }
+
+  .invintationTitle {
+    max-width: 280px;
+  }
+
+  .invitationListContainer {
+    max-width: 280px;
+  }
+
+  .invitationListCard {
+    max-width: 240px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 379px) {
+  .invintationWrapper {
+    max-width: 300px;
+  }
+
+  .invintationTitle {
+    max-width: 300px;
+  }
+
+  .invitationListContainer {
+    max-width: 300px;
+  }
+
+  .invitationListCard {
+    max-width: 260px;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 419px) {
+  .invintationWrapper {
+    max-width: 320px;
+  }
+
+  .invintationTitle {
+    max-width: 320px;
+  }
+
+  .invitationListContainer {
+    max-width: 320px;
+  }
+
+  .invitationListCard {
+    max-width: 280px;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 767px) {
+  .invintationWrapper {
+    max-width: 360px;
+  }
+
+  .invintationContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .invintationTitle {
+    max-width: 360px;
+  }
+
+  .invitationListContainer {
+    max-width: 360px;
+  }
+
+  .invitationListCard {
+    max-width: 320px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .invintationWrapper {
+    max-width: 743px;
+    padding-left: 25px;
+  }
+
+  .invintationTitle {
+    max-width: 743px;
+  }
+
+  .invitationListContainer {
+    max-width: 663px;
+  }
+
+  .invitationListCard {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .invintationWrapper {
+    max-width: 974px;
+    padding-left: 50px;
+  }
+
+  .invintationTitle {
+    max-width: 944px;
+  }
+
+  .invitationListContainer {
+    max-width: 894px;
+  }
+
+  .invitationListWrapper {
+    grid-template-columns: 47.5% 47.5%;
+  }
+
+  .invitationListCard {
+    width: 92%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .invitationListCard {
+    width: 94%;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1359px) {
+  .invintationWrapper {
+    max-width: 1230px;
+    padding-left: 50px;
+  }
+
+  .invintationTitle {
+    max-width: 1047px;
+  }
+
+  .invitationListContainer {
+    max-width: 1120px;
+  }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1699px) {
+  .invintationWrapper {
+    max-width: 1260px;
+    padding-left: 100px;
+  }
+
+  .invintationTitle {
+    max-width: 1047px;
+  }
+
+  .invitationListContainer {
+    max-width: 1120px;
+  }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1919px) {
+  .invintationWrapper {
+    max-width: 1342px;
+    padding-left: 358px;
+  }
+
+  .invintationTitle {
+    max-width: 1047px;
+  }
+
+  .invitationListContainer {
+    max-width: 1120px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .invintationWrapper {
+    max-width: 1562px;
+    padding-left: 358px;
+  }
+
+  .invintationTitle {
+    max-width: 1047px;
+  }
+
+  .invitationListContainer {
+    max-width: 1120px;
+  }
+}
