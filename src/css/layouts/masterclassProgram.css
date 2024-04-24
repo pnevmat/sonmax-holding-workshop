@@ -2,6 +2,61 @@
   width: 100%;
   background-color: #010101;
 }
+/* From offer */
+.programLessonsList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.programLessonCard {
+  width: 100%;
+  max-width: 1120px;
+  padding: 40px;
+  border-radius: 40px;
+  background-color: #ffffff;
+}
+
+.programStepNumber {
+  display: inline-block;
+  width: 100%;
+  max-width: 110px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  background-color: #000000;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.programStepText {
+  display: inline-block;
+  width: 100%;
+  max-width: fit-content;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  background-color: #fff401;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+/* From offer */
+
+.programVideoContainer {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.programVideo {
+  width: 100%;
+  border-radius: 10px;
+}
 
 .masterclassProgramWrapper {
   position: relative;
@@ -54,42 +109,42 @@
   background-color: #fff401;
 }
 
-.masterclassProgramListWrapper {
+/* .masterclassProgramListWrapper {
   display: grid;
   grid-template-columns: 49% 49%;
   gap: 10px;
   margin-bottom: 40px;
-}
+} */
 
-.masterclassProgramListCard {
+/* .masterclassProgramListCard {
   display: flex;
   width: 92%;
   padding: 20px;
   border: 1px solid #515151;
-}
+} */
 
-.masterclassProgramListImgContainer {
+/* .masterclassProgramListImgContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100%;
   margin-right: 10px;
-}
+} */
 
-.masterclassProgramListImgContainer > img {
+/* .masterclassProgramListImgContainer > img {
   position: relative;
   top: -40%;
   left: 0;
   width: 18px;
   height: 18px;
-}
+} */
 
-.biggerTop > img {
+/* .biggerTop > img {
   top: -43%;
-}
+} */
 
-.masterclassProgramListText {
+/* .masterclassProgramListText {
   display: inline-block;
   font-size: 22px;
   font-weight: 400;
@@ -97,7 +152,7 @@
   letter-spacing: 0em;
   text-align: left;
   color: #000000;
-}
+} */
 
 .offerContainer {
   display: flex;
@@ -162,6 +217,18 @@
     padding-left: 0;
   }
 
+  /* From offer */
+  .programLessonCard {
+    padding: 30px;
+  }
+
+  .programStepNumber,
+  .programStepText {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  /* From offer */
+
   .masterclassProgramTitle {
     padding-left: 30px;
   }
@@ -187,21 +254,21 @@
     margin-bottom: 20px;
   }
 
-  .masterclassProgramListWrapper {
+  /* .masterclassProgramListWrapper {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-  }
+  } */
 
-  .masterclassProgramListCard {
+  /* .masterclassProgramListCard {
     width: 100%;
-  }
+  } */
 
-  .masterclassProgramListText {
+  /* .masterclassProgramListText {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-  }
+  } */
 
   .offerContainer {
     flex-direction: column;
@@ -232,13 +299,19 @@
     max-width: 320px;
   }
 
+  /* From offer */
+  .programLessonCard {
+    max-width: 260px;
+  }
+  /* From offer */
+
   .masterclassProgramListContainer {
     max-width: 260px;
   }
 
-  .masterclassProgramListCard {
+  /* .masterclassProgramListCard {
     max-width: 220px;
-  }
+  } */
 
   .buttonContainer {
     max-width: 208px;
@@ -250,13 +323,19 @@
     max-width: 340px;
   }
 
+  /* From offer */
+  .programLessonCard {
+    max-width: 280px;
+  }
+  /* From offer */
+
   .masterclassProgramListContainer {
     max-width: 280px;
   }
 
-  .masterclassProgramListCard {
+  /* .masterclassProgramListCard {
     max-width: 240px;
-  }
+  } */
 
   .buttonContainer {
     max-width: 228px;
@@ -268,13 +347,19 @@
     max-width: 360px;
   }
 
+  /* From offer */
+  .programLessonCard {
+    max-width: 300px;
+  }
+  /* From offer */
+
   .masterclassProgramListContainer {
     max-width: 300px;
   }
 
-  .masterclassProgramListCard {
+  /* .masterclassProgramListCard {
     max-width: 260px;
-  }
+  } */
 
   .buttonContainer {
     max-width: 248px;
@@ -286,13 +371,19 @@
     max-width: 380px;
   }
 
+  /* From offer */
+  .programLessonCard {
+    max-width: 320px;
+  }
+  /* From offer */
+
   .masterclassProgramListContainer {
     max-width: 320px;
   }
 
-  .masterclassProgramListCard {
+  /* .masterclassProgramListCard {
     max-width: 280px;
-  }
+  } */
 
   .buttonContainer {
     max-width: 268px;
@@ -304,6 +395,12 @@
     max-width: 420px;
   }
 
+  /* From offer */
+  .programLessonCard {
+    max-width: 360px;
+  }
+  /* From offer */
+
   .masterclassProgramListContainer {
     display: block;
     max-width: 360px;
@@ -311,9 +408,9 @@
     margin-left: auto;
   }
 
-  .masterclassProgramListCard {
+  /* .masterclassProgramListCard {
     max-width: 320px;
-  }
+  } */
 
   .buttonContainer {
     max-width: 308px;
@@ -326,14 +423,27 @@
     padding-left: 25px;
   }
 
+  /* From offer */
+  .programLessonsList {
+    max-width: 688px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .programLessonCard {
+    max-width: 648px;
+    padding: 20px;
+  }
+  /* From offer */
+
   .masterclassProgramListContainer {
     width: 100%;
     max-width: 663px;
   }
 
-  .masterclassProgramListCard {
+  /* .masterclassProgramListCard {
     width: 87%;
-  }
+  } */
 
   .offerContainer {
     align-items: center;
@@ -346,14 +456,26 @@
     padding-left: 50px;
   }
 
+  /* From offer */
+  .programLessonsList {
+    max-width: 944px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .programLessonCard {
+    max-width: 864px;
+  }
+  /* From offer */
+
   .masterclassProgramListContainer {
     width: 100%;
     max-width: 894px;
   }
 
-  .masterclassProgramListCard {
+  /* .masterclassProgramListCard {
     width: 90%;
-  }
+  } */
 
   .offerContainer {
     align-items: center;
@@ -371,9 +493,9 @@
     max-width: 1120px;
   }
 
-  .masterclassProgramListCard {
+  /* .masterclassProgramListCard {
     width: 91%;
-  }
+  } */
 
   .offerContainer {
     align-items: center;
@@ -391,9 +513,9 @@
     max-width: 1120px;
   }
 
-  .masterclassProgramListCard {
+  /* .masterclassProgramListCard {
     width: 92%;
-  }
+  } */
 
   .offerContainer {
     align-items: center;
@@ -405,14 +527,24 @@
     max-width: 1342px;
   }
 
+  /* From offer */
+  .programLessonsList {
+    align-items: flex-start;
+  }
+
+  .programLessonCard {
+    max-width: 1120px;
+  }
+  /* From offer */
+
   .masterclassProgramListContainer {
     width: 100%;
     max-width: 1120px;
   }
 
-  .masterclassProgramListWrapper {
+  /* .masterclassProgramListWrapper {
     grid-template-columns: 49.5% 49.5%;
-  }
+  } */
 }
 
 @media screen and (min-width: 1920px) {
@@ -420,7 +552,21 @@
     max-width: 1562px;
   }
 
-  .masterclassProgramListWrapper {
-    grid-template-columns: 49.5% 49.5%;
+  /* From offer */
+  .programLessonsList {
+    align-items: flex-start;
   }
+
+  .programLessonCard {
+    max-width: 1120px;
+  }
+  /* From offer */
+
+  .masterclassProgramTitle {
+    max-width: 900px;
+  }
+
+  /* .masterclassProgramListWrapper {
+    grid-template-columns: 49.5% 49.5%;
+  } */
 }

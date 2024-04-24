@@ -182,7 +182,7 @@ a {
   color: #ffffff;
 }
 
-.youGetThinTextBlock {
+.youGetThinTextRed {
   display: block;
   margin-bottom: 10px;
 }
@@ -191,10 +191,39 @@ a {
   width: 100%;
 }
 
+.youGetPriceWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 250px;
+}
+
+.youGetPriceContainer {
+  position: relative;
+}
+
+.youGetPriceImg {
+  position: absolute;
+  top: 20%;
+  left: -7%;
+  width: 115%;
+}
+
+.youGetPriceText {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 36px;
+  /* font-weight: 700; */
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 .youGetBoldText {
   display: inline-block;
   color: #fff401;
-  font-size: 22px;
+  font-size: 42px;
   font-weight: 700;
   line-height: 33px;
   letter-spacing: 0em;
@@ -567,6 +596,7 @@ a {
   .masterclassContainer {
     display: inline-block;
     width: 100%;
+    max-width: 230px;
   }
 
   .masterclassContainerMobile {
@@ -629,7 +659,7 @@ a {
 
   .youGetBoldText {
     display: inline-block;
-    width: 29%;
+    /* width: 29%; */
   }
 }
 
@@ -830,12 +860,8 @@ a {
     padding-right: 358px;
     padding-bottom: 140px;
     padding-left: 358px;
-    background-size: 36.5% 73%, cover;
+    background-size: 36.5% 63%, cover;
     background-position: 71% 51%, top;
-  }
-
-  .masterclassContainer {
-    max-width: 230px;
   }
 
   .youGetBlockContainer {
@@ -845,8 +871,9 @@ a {
   }
 
   .backgroundLinerPc {
-    top: 81%;
-    left: 23%;
+    top: 84%;
+    left: 23.3%;
+    height: 150px;
   }
 
   .youGetImgContainer {

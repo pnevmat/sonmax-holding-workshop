@@ -48,14 +48,23 @@
   color: #ffffff;
 }
 
-.conclusionContainer {
+.conclusionTextContainer {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.convinceContainer {
   width: 100%;
   padding: 20px;
   border: 1px solid #515151;
   border-radius: 20px;
 }
 
-.conclusionTextContainer {
+.convinceTextContainer {
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
@@ -244,7 +253,8 @@
     max-width: 546px;
   }
 
-  .conclusionContainer {
+  .conclusionTextContainer,
+  .convinceContainer {
     max-width: 607px;
   }
 }

@@ -5,7 +5,9 @@
 
 .finalOfferWrapper {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  gap: 30px;
   width: 77.7%;
   padding-top: 89px;
   padding-left: 358px;
@@ -15,7 +17,7 @@
 }
 
 .finalOfferTextContainer {
-  width: 46%;
+  width: 100%;
   font-size: 47px;
   font-weight: 700;
   line-height: 56px;
@@ -36,8 +38,8 @@
 }
 
 .arrowPc {
-  width: 49px;
-  height: 67px;
+  width: 67px;
+  height: 49px;
 }
 
 .finalOfferForm {
