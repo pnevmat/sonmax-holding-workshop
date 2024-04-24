@@ -45,6 +45,10 @@ button:focus {
   font-weight: 700;
 }
 
+.red {
+  color: red;
+}
+
 .upperCase {
   text-transform: uppercase;
 }
