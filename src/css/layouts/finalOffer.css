@@ -245,13 +245,13 @@
     margin-left: auto;
   }
 
-  .finalOfferTextContainer {
-    /* max-width: 552px; */
-  }
+  /* .finalOfferTextContainer {
+    max-width: 552px;
+  } */
 
-  .finalOfferTextContainer > span {
-    /* max-width: 290px; */
-  }
+  /* .finalOfferTextContainer > span {
+    max-width: 290px;
+  } */
 
   .finalOfferForm {
     max-width: 320px;
