@@ -33,7 +33,7 @@
 
 // const monthToShow = monthsArr[month];
 
-const headerDateText = `2 травня о 15:00 | 🟢online`;
+const headerDateText = '2 травня о 15:00 | 🟢online';
 const masterclassProgramDateText = `2 травня о 15:00`;
 
 const headerDateSpan = document.querySelector('[headerDate]');
