@@ -340,9 +340,14 @@ a {
 
   .youGetThinText {
     display: block;
-    margin-bottom: 6px;
+    margin-bottom: 15px;
     font-size: 14px;
     line-height: 21px;
+  }
+
+  .youGetPriceWrapper {
+    justify-content: flex-start;
+    gap: 30px;
   }
 
   .youGetBoldText {
@@ -395,7 +400,7 @@ a {
   .background {
     max-width: 380px;
     background-size: 75% 18.8%;
-    background-position: 115% 23%;
+    background-position: 115% 19%;
   }
 
   .backgroundLiner {
@@ -429,8 +434,8 @@ a {
 @media screen and (min-width: 340px) and (max-width: 359px) {
   .background {
     max-width: 380px;
-    background-size: 80% 22.5%;
-    background-position: 115% 23%;
+    background-size: 80% 21%;
+    background-position: 115% 16.5%;
   }
 
   .backgroundLiner {
@@ -464,8 +469,8 @@ a {
 @media screen and (min-width: 360px) and (max-width: 379px) {
   .background {
     max-width: 380px;
-    background-size: 85% 25%;
-    background-position: 115% 23%;
+    background-size: 85% 24.3%;
+    background-position: 115% 18%;
   }
 
   .backgroundLiner {
@@ -524,8 +529,8 @@ a {
 @media screen and (min-width: 380px) and (max-width: 419px) {
   .background {
     max-width: 380px;
-    background-size: 85% 26.5%;
-    background-position: 105% 23%;
+    background-size: 85% 25.5%;
+    background-position: 105% 19%;
   }
 
   .descriptionContainer {
@@ -544,8 +549,8 @@ a {
 @media screen and (min-width: 420px) and (max-width: 767px) {
   .background {
     max-width: 420px;
-    background-size: 100% 36.1%;
-    background-position: 50% 22%;
+    background-size: 100% 34.1%;
+    background-position: 50% 21%;
     background-repeat: no-repeat;
   }
 
@@ -669,7 +674,7 @@ a {
     padding-right: 25px;
     padding-bottom: 50px;
     padding-left: 25px;
-    background-size: 55% 43%, 150% 130%;
+    background-size: 55% 36%, 150% 130%;
     background-position: 95% 60%, 45% 100%;
   }
 
@@ -695,7 +700,7 @@ a {
   }
 
   .backgroundLinerPc {
-    top: 69.6%;
+    top: 74.3%;
     left: 0;
     width: 100%;
     max-width: 725px;
@@ -711,9 +716,9 @@ a {
     max-width: 100px;
   }
 
-  .youGetBoldText {
+  /* .youGetBoldText {
     font-size: 18px;
-  }
+  } */
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -721,7 +726,7 @@ a {
     max-width: 974px;
     padding-left: 50px;
     padding-bottom: 50px;
-    background-size: 63% 64%, 150% 110%;
+    background-size: 63% 56%, 150% 110%;
     background-position: 103% 68%, 45% 100%;
   }
 
@@ -743,8 +748,8 @@ a {
   }
 
   .backgroundLinerPc {
-    top: 71.4%;
-    left: 6.6%;
+    top: 74.8%;
+    left: 5.7%;
     width: 100%;
     max-width: 911px;
     height: 280px;
@@ -789,7 +794,7 @@ a {
     max-width: 1230px;
     padding-left: 50px;
     padding-bottom: 50px;
-    background-size: 50.5% 71%, 150% 100%;
+    background-size: 50.5% 61%, 150% 100%;
     background-position: 92.5% 75%, 50% 100%;
   }
 
@@ -804,8 +809,8 @@ a {
   }
 
   .backgroundLinerPc {
-    top: 77%;
-    left: 25.9%;
+    top: 80.4%;
+    left: 26%;
     height: 192px;
   }
 }
@@ -814,7 +819,7 @@ a {
   .background {
     max-width: 1260px;
     padding-left: 100px;
-    background-size: 49% 78%, 100% 100%;
+    background-size: 49% 65%, 100% 100%;
     background-position: 90% 89%, 45% 100%;
   }
 
@@ -825,7 +830,7 @@ a {
   }
 
   .backgroundLinerPc {
-    top: 77%;
+    top: 80.4%;
     left: 24%;
   }
 }
@@ -834,7 +839,7 @@ a {
   .background {
     max-width: 1342px;
     padding-left: 358px;
-    background-size: 40% 80%, 90% 100%;
+    background-size: 40% 67%, 90% 100%;
     background-position: 85.5% 97%, 0% 0%;
   }
 
@@ -845,8 +850,8 @@ a {
   }
 
   .backgroundLinerPc {
-    top: 77%;
-    left: 22%;
+    top: 80.5%;
+    left: 22.3%;
     width: 100%;
     max-width: 911px;
     height: 192px;

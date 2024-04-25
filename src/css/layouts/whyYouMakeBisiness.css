@@ -111,7 +111,8 @@
     line-height: 24px;
   }
 
-  .conclusionTextContainer {
+  .conclusionTextContainer,
+  .convinceTextContainer > span {
     font-size: 14px;
     line-height: 21px;
   }
@@ -145,6 +146,10 @@
   .conclusionContainer {
     max-width: 220px;
   }
+
+  .convinceContainer {
+    max-width: 218px;
+  }
 }
 
 @media screen and (min-width: 340px) and (max-width: 359px) {
@@ -167,6 +172,10 @@
 
   .conclusionContainer {
     max-width: 220px;
+  }
+
+  .convinceContainer {
+    max-width: 238px;
   }
 }
 
@@ -191,6 +200,10 @@
   .conclusionContainer {
     max-width: 260px;
   }
+
+  .convinceContainer {
+    max-width: 258px;
+  }
 }
 
 @media screen and (min-width: 380px) and (max-width: 419px) {
@@ -214,6 +227,10 @@
   .conclusionContainer {
     max-width: 280px;
   }
+
+  .convinceContainer {
+    max-width: 278px;
+  }
 }
 
 @media screen and (min-width: 420px) and (max-width: 767px) {
@@ -236,6 +253,10 @@
 
   .conclusionContainer {
     max-width: 320px;
+  }
+
+  .convinceContainer {
+    max-width: 318px;
   }
 }
 

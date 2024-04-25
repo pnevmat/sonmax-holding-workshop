@@ -128,7 +128,7 @@
   .finalOfferTextContainer > span {
     display: inline-block;
     width: 100%;
-    max-width: 249px;
+    /* max-width: 249px; */
   }
 
   .finalOfferTextWrapper {
@@ -140,7 +140,7 @@
   .finalOfferText {
     display: inline-block;
     width: 100%;
-    max-width: 236px;
+    /* max-width: 236px; */
   }
 
   .arrowPc {
@@ -148,8 +148,8 @@
   }
 
   .arrowMobile {
-    width: 22px;
-    height: 25px;
+    width: 25px;
+    height: 22px;
   }
 
   .finalOfferForm {
@@ -246,11 +246,11 @@
   }
 
   .finalOfferTextContainer {
-    max-width: 552px;
+    /* max-width: 552px; */
   }
 
   .finalOfferTextContainer > span {
-    max-width: 290px;
+    /* max-width: 290px; */
   }
 
   .finalOfferForm {
@@ -279,7 +279,7 @@
 
   .finalOfferTextContainer {
     width: 100%;
-    max-width: 600px;
+    /* max-width: 600px; */
   }
 
   .arrowPc {
@@ -288,8 +288,8 @@
 
   .arrowMobile {
     display: block;
-    width: 49px;
-    height: 67px;
+    width: 67px;
+    height: 49px;
   }
 
   .finalOfferForm {
@@ -309,7 +309,7 @@
 
   .finalOfferTextContainer {
     width: 100%;
-    max-width: 752px;
+    /* max-width: 752px; */
   }
 
   .finalOfferTextContainer > span {
@@ -317,9 +317,9 @@
     max-width: 700px;
   }
 
-  .finalOfferTextWrapper {
+  /* .finalOfferTextWrapper {
     max-width: 700px;
-  }
+  } */
 
   .arrowPc {
     display: none;
@@ -327,8 +327,8 @@
 
   .arrowMobile {
     display: block;
-    width: 49px;
-    height: 67px;
+    width: 67px;
+    height: 49px;
   }
 
   .finalOfferForm {
@@ -347,7 +347,7 @@
 
   .finalOfferTextContainer {
     width: 100%;
-    max-width: 552px;
+    /* max-width: 552px; */
   }
 
   .finalOfferForm {
@@ -366,7 +366,7 @@
 
   .finalOfferTextContainer {
     width: 100%;
-    max-width: 552px;
+    /* max-width: 552px; */
   }
 
   .finalOfferForm {
@@ -384,7 +384,7 @@
 
   .finalOfferTextContainer {
     width: 100%;
-    max-width: 552px;
+    /* max-width: 552px; */
   }
 
   .finalOfferForm {

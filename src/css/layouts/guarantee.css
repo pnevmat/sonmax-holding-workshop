@@ -230,36 +230,56 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+/* @media screen and (min-width: 768px) and (max-width: 1279px) {
   .guaranteeContainer {
     padding-right: 40px;
     padding-left: 40px;
   }
-}
+} */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .guaranteeContainer {
     max-width: 688px;
+    padding-left: 25px;
+    margin: 0;
   }
 
   .guaranteeCard {
-    max-width: 606px;
+    max-width: 660px;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .guaranteeContainer {
     max-width: 944px;
+    /* padding-right: 0; */
+    padding-left: 50px;
+    margin: 0;
   }
 
   .guaranteeCard {
-    max-width: 862px;
+    max-width: 891px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1699px) {
+  .guaranteeContainer {
+    padding-left: 50px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1699px) {
+  .guaranteeContainer {
+    padding-left: 100px;
+    margin: 0;
   }
 }
 
 @media screen and (min-width: 1700px) and (max-width: 1919px) {
   .guaranteeContainer {
-    max-width: 1342px;
+    padding-left: 358px;
+    margin: 0;
   }
 }
 
