@@ -36,7 +36,7 @@
 const headerDateText = '2 травня о 15:00 | 🟢online';
 const masterclassProgramDateText = '2 травня о 15:00';
 
-const headerDateSpan = document.querySelector('[headerdate]');
+const headerDateSpan = document.querySelector('[header-date]');
 const masterclassProgramDateSpan = document.querySelector(
   '[masterclassprogramdate]',
 );
