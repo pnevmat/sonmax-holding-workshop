@@ -5,7 +5,11 @@
     </span>
     <div class="guaranteeCard">
       <div class="guaranteeTextContainer">
-        <img src="./images/guaranteer.png" alt="Дмитро Кафтаник" />
+        <picture>
+          <source srcset="./images/guaranteer.png?as=avif" type="image/avif" />
+          <source srcset="./images/guaranteer.png?as=webp" type="image/webp" />
+          <img src="./images/guaranteer.png" alt="Дмитро Кафтаник" />
+        </picture>
         <div class="guaranteeTextWrapper">
           <img
             class="guaranteeBraketsImg"
@@ -20,11 +24,15 @@
         </div>
       </div>
       <div class="guaranteeSignContainer">
-        <img
-          class="guaranteeSignImg"
-          src="./images/signature.png"
-          alt="Підпис"
-        />
+        <picture>
+          <source srcset="./images/signature.png?as=avif" type="image/avif" />
+          <source srcset="./images/signature.png?as=webp" type="image/webp" />
+          <img
+            class="guaranteeSignImg"
+            src="./images/signature.png"
+            alt="Підпис"
+          />
+        </picture>
         <span class="guaranteeSignText bold">Кирило Кафтаник</span>
       </div>
     </div>

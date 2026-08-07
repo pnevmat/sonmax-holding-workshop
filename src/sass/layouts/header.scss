@@ -1,3 +1,5 @@
+@use '../utils/mixins';
+
 .header {
   width: 100%;
 }
@@ -82,6 +84,10 @@
   margin-bottom: 20px;
 }
 
+.questionsContainer > picture {
+	text-align: right;
+}
+
 .questionsTextContainer {
   display: flex;
   flex-direction: column;
@@ -121,7 +127,7 @@
 }
 
 .instaStatsPng {
-  width: 24.4%;
+  width: 53.8%;
 }
 
 .youGetBlockContainer {
@@ -244,11 +250,11 @@ a {
   .logoWrapper {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
   }
 
   .logo,
-  .logo > img {
+  .logo > picture > img {
     width: 73px;
     height: 63px;
   }
@@ -384,26 +390,20 @@ a {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 319px) {
   .background {
-    background-size: 125% 30%;
+    background-size: 115% 25%;
   }
 }
 
 @media screen and (max-width: 767px) {
   .background {
-    background-image: url('../../images//header-man-background.png');
+		@include mixins.responsive-bg('../images/header-man-background', 'png');
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 339px) {
-  .background {
-    max-width: 380px;
-    background-size: 75% 18.8%;
-    background-position: 115% 19%;
-  }
-
-  .backgroundLiner {
+@media screen and (min-width: 320px) and (max-width: 359px) {
+	  .backgroundLiner {
     background-image: linear-gradient(
       to top,
       rgba(8, 8, 8, 1) 68%,
@@ -416,6 +416,14 @@ a {
       rgba(8, 8, 8, 0.3) 75.58%,
       rgba(8, 8, 8, 0.2) 76.58%
     );
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 339px) {
+  .background {
+    max-width: 380px;
+    background-size: 70% 18%;
+    background-position: 7% 19%;
   }
 
   .descriptionContainer {
@@ -434,23 +442,8 @@ a {
 @media screen and (min-width: 340px) and (max-width: 359px) {
   .background {
     max-width: 380px;
-    background-size: 80% 21%;
-    background-position: 115% 16.5%;
-  }
-
-  .backgroundLiner {
-    background-image: linear-gradient(
-      to top,
-      rgba(8, 8, 8, 1) 66%,
-      rgba(8, 8, 8, 0.9) 67.58%,
-      rgba(8, 8, 8, 0.8) 68.58%,
-      rgba(8, 8, 8, 0.7) 69.58%,
-      rgba(8, 8, 8, 0.6) 70.58%,
-      rgba(8, 8, 8, 0.5) 71.58%,
-      rgba(8, 8, 8, 0.4) 72.58%,
-      rgba(8, 8, 8, 0.3) 73.58%,
-      rgba(8, 8, 8, 0.2) 74.58%
-    );
+    background-size: 75% 19%;
+    background-position: 12% 16.5%;
   }
 
   .descriptionContainer {
@@ -469,8 +462,8 @@ a {
 @media screen and (min-width: 360px) and (max-width: 379px) {
   .background {
     max-width: 380px;
-    background-size: 85% 24.3%;
-    background-position: 115% 18%;
+    background-size: 82% 24.3%;
+    background-position: 15% 18%;
   }
 
   .backgroundLiner {
@@ -529,8 +522,8 @@ a {
 @media screen and (min-width: 380px) and (max-width: 419px) {
   .background {
     max-width: 380px;
-    background-size: 85% 25.5%;
-    background-position: 105% 19%;
+    background-size: 82% 25.5%;
+    background-position: 15% 19%;
   }
 
   .descriptionContainer {
@@ -590,12 +583,12 @@ a {
 
 @media screen and (min-width: 768px) {
   .header {
-    background-image: url('../../images/header-background.png');
+		@include mixins.responsive-bg('../images/header-background', 'png');
     background-size: cover;
   }
 
   .background {
-    background-image: url('../../images//header-man-background.png');
+		@include mixins.responsive-bg('../images//header-man-background', 'png');
   }
 
   .masterclassContainer {
@@ -608,14 +601,14 @@ a {
     display: none;
   }
 
-  .logo,
-  .logo > img {
-    width: 65px;
-    height: 56px;
+  .logoWrapper {
+    margin-bottom: 50px;
   }
 
-  .logo {
-    margin-bottom: 50px;
+	  .logo,
+  .logo > picture > img {
+    width: 65px;
+    height: 56px;
   }
 
   .online {
@@ -700,7 +693,7 @@ a {
   }
 
   .backgroundLinerPc {
-    top: 74.3%;
+    top: 75.3%;
     left: 0;
     width: 100%;
     max-width: 725px;
@@ -748,8 +741,8 @@ a {
   }
 
   .backgroundLinerPc {
-    top: 74.8%;
-    left: 5.7%;
+    top: 77.5%;
+    left: 3.2%;
     width: 100%;
     max-width: 911px;
     height: 280px;
@@ -794,7 +787,7 @@ a {
     max-width: 1230px;
     padding-left: 50px;
     padding-bottom: 50px;
-    background-size: 50.5% 61%, 150% 100%;
+    background-size: 56% 61%, 150% 100%;
     background-position: 92.5% 75%, 50% 100%;
   }
 
@@ -809,7 +802,7 @@ a {
   }
 
   .backgroundLinerPc {
-    top: 80.4%;
+    top: 82.3%;
     left: 26%;
     height: 192px;
   }
@@ -819,7 +812,7 @@ a {
   .background {
     max-width: 1260px;
     padding-left: 100px;
-    background-size: 49% 65%, 100% 100%;
+    background-size: 53% 65%, 100% 100%;
     background-position: 90% 89%, 45% 100%;
   }
 
@@ -830,7 +823,7 @@ a {
   }
 
   .backgroundLinerPc {
-    top: 80.4%;
+    top: 82.3%;
     left: 24%;
   }
 }
@@ -839,7 +832,7 @@ a {
   .background {
     max-width: 1342px;
     padding-left: 358px;
-    background-size: 40% 67%, 90% 100%;
+    background-size: 43% 67%, 90% 100%;
     background-position: 85.5% 97%, 0% 0%;
   }
 
@@ -850,7 +843,7 @@ a {
   }
 
   .backgroundLinerPc {
-    top: 80.5%;
+    top: 82.3%;
     left: 22.3%;
     width: 100%;
     max-width: 911px;
@@ -865,7 +858,7 @@ a {
     padding-right: 358px;
     padding-bottom: 140px;
     padding-left: 358px;
-    background-size: 36.5% 63%, cover;
+    background-size: 40% 63%, cover;
     background-position: 71% 51%, top;
   }
 
@@ -876,8 +869,8 @@ a {
   }
 
   .backgroundLinerPc {
-    top: 84%;
-    left: 23.3%;
+    top: 85.5%;
+    left: 25%;
     height: 150px;
   }
 
